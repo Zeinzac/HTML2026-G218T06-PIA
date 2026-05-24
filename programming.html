@@ -1,0 +1,152 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Programming & Logic - Skeletal System</title>
+  <style>
+    body { margin: 0; padding: 0; }
+    .navbar { background-color: #1a1a2e; padding: 12px 0; text-align: center; }
+    .navbar a { color: #e0c97f; text-decoration: none; font-family: Georgia, serif; font-size: 14px; font-weight: bold; margin: 0 10px; padding: 6px 10px; border: 1px solid transparent; }
+    .navbar a:hover { border: 1px solid #e0c97f; }
+    .header-banner { background-color: #1a0033; text-align: center; padding: 25px 20px; border-bottom: 4px solid #bf5fff; }
+    .content-box { background-color: #16213e; margin: 30px auto; max-width: 860px; padding: 30px 40px; border: 2px solid #bf5fff; }
+    .code-block { background-color: #0d0d0d; border: 1px solid #bf5fff; padding: 15px; font-family: "Courier New", monospace; color: #39ff14; font-size: 13px; white-space: pre-wrap; margin: 15px 0; }
+    .footer { background-color: #1a1a2e; color: #e0c97f; text-align: center; padding: 15px; font-family: Georgia, serif; font-size: 12px; border-top: 2px solid #e0c97f; margin-top: 40px; }
+  </style>
+</head>
+<body bgcolor="#16213e">
+
+  <div class="navbar">
+    <a href="index.html">🏠 Home</a>
+    <a href="research.html">🔬 Research Data</a>
+    <a href="problems.html">⚠️ Problems</a>
+    <a href="robotic.html">🦴 Prototype Solution</a>
+    <a href="programming.html">💻 Programming</a>
+    <a href="journey.html">🗺️ Journey</a>
+    <a href="conclusion.html">📋 Conclusion</a>
+    <a href="team.html">👥 Team</a>
+  </div>
+
+  <div class="header-banner">
+    <h1><font color="#bf5fff" face="Georgia">💻 Programming & Logic</font></h1>
+    <h2><font color="#ffffff" face="Georgia">Operational Algorithm & Flowchart</font></h2>
+  </div>
+
+  <div class="content-box">
+
+    <center>
+      <h2><font color="#e0c97f" face="Georgia" size="5">Prototype Operational Overview</font></h2>
+    </center>
+
+    <p><font color="#ffffff" face="Georgia" size="3">
+      This section documents the <b>logic and sequence</b> used to demonstrate the functionality of our mechanical knee joint. 
+      The algorithm defines how the prototype transitions from a resting state to a full anatomical demonstration, 
+      explaining the internal and external skeletal structures.
+    </font></p>
+
+    <br>
+
+    <center><h3><font color="#bf5fff" face="Georgia">Operational Algorithm</font></h3></center>
+
+    <font color="#a8d8ea" face="Georgia" size="3">
+    <ol>
+      <li><b>START</b> &mdash; Place the prototype in the initial closed position.</li>
+      <li>Identify external landmarks: Femur, Tibia, and Patella.</li>
+      <li>Demonstrate <b>Joint Flexion</b> by moving the hinge mechanism.</li>
+      <li><em>IF</em> internal view is required &rarr; Activate the longitudinal split mechanism.</li>
+      <li><em>IF</em> damage simulation is active &rarr; Point to specific osteoporotic areas.</li>
+      <li>Expose the <b>medullary canal</b> and bone marrow layers.</li>
+      <li>Compare healthy vs. weakened bone density structures visually.</li>
+      <li>Return prototype to the anatomical neutral position.</li>
+      <li><b>END</b></li>
+    </ol>
+    </font>
+
+    <br>
+
+    <center><h3><font color="#bf5fff" face="Georgia">Flowchart</font></h3></center>
+    <center>
+      <p>
+        <img alt="Knee Prototype Flowchart" src="images/flowchart.jpg" width="350" style="border: 2px solid #bf5fff; border-radius: 10px;" />
+      </p>
+      <p><font color="#888888" face="Georgia" size="2">
+        <em>Operational flowchart for the mechanical demonstration.</em>
+      </font></p>
+      <p><font color="#888888" face="Georgia" size="2">
+        <em>The visual reference was created with Artificial Intelligence (Gemini).</em>
+      </font></p>
+
+    </center>
+
+    <br>
+
+    <center><h3><font color="#bf5fff" face="Georgia">Demonstration Logic (Pseudocode)</font></h3></center>
+
+    <div class="code-block">
+PROCEDURE Demonstrate_Knee_Joint
+  INITIALIZE model_closed
+  
+  WHILE demonstration_active:
+    MOVE joint.flexion (angle_0_to_90)
+    IF user_requests_internal_view THEN
+      OPEN bone_section.longitudinal
+      HIGHLIGHT medullary_cavity
+      DISPLAY spongy_bone_texture
+    ELSE
+      MAINTAIN external_structural_view
+    END IF
+    
+    IF showing_osteoporosis_effect THEN
+      POINT_TO density_loss_zones
+    END IF
+    
+    RESET model_to_neutral
+  END WHILE
+END PROCEDURE
+    </div>
+
+    <br>
+
+    <center><h3><font color="#bf5fff" face="Georgia">Model Reference</font></h3></center>
+    <center>
+      <p>
+        <img alt="Physical Prototype Progress" src="images/prototype_logic.jpg" height="240" width="300" />
+      </p>
+      <p><font color="#888888" face="Georgia" size="2">
+        <em>Mechanical setup of the hinge and sectional opening.</em>
+      </font></p>
+    </center>
+
+    <br>
+
+    <center><h3><font color="#bf5fff" face="Georgia">AI Prompts Used to Create This Website</font></h3></center>
+    <font color="#ffffff" face="Georgia" size="3">
+    <p>The following AI tools and prompts were used in the development of this website:</p>
+    <ul>
+      <li><b>Tool used:</b> Claude (Anthropic) &mdash; claude.ai and <b>Gemini</b> (Google) &mdash; gemini.google.com</li>
+      <li><b>Prompt :</b> <em>"Hola Claude. Voy a realizar mi Producto Integrador de Aprendizaje (PIA) 
+      de la materia IAR... 
+      <br><br>
+      Etiquetas Obligatorias: En el código debes utilizar frecuentemente las etiquetas 
+      &quot; &lt;p&gt; &lt;/p&gt; &quot;, 
+      &quot; &lt;br&gt; &lt;/br&gt; &quot;, 
+      &quot; &lt;b&gt; &lt;/b&gt; &quot;, 
+      &quot; &lt;em&gt; &lt;/em&gt; &quot;, 
+      &quot; &lt;ul&gt; &lt;/ul&gt; &quot;, 
+      &quot; &lt;ol&gt; &lt;/ol&gt; &quot; y 
+      &quot; &lt;li&gt; &lt;/li&gt; &quot;.
+      <br><br>
+      Estética: Usa la etiqueta &lt;font&gt; para definir colores... 
+      la etiqueta &lt;body&gt; con el atributo bgcolor...
+      Multimedia: Deja el espacio (tags &lt;img&gt;) para insertar al menos 2 imágenes centradas...
+      Cualquier tipo de texto debe ser en ingles..."</em></li>
+    </ul>
+    </font>
+
+  </div>
+
+  <div class="footer">
+    IAR 2026 &mdash; PIA HTML Website &mdash; Skeletal System &mdash; GROUP 218 TEAM 06 &mdash; CIDEB Mederos / UANL
+  </div>
+
+</body>
+</html>
